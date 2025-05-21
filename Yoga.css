@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: url('C:\Users\HP\OneDrive\Pictures\Saved Pictures.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: #fdd835;
+}
+
+section {
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #fdd835;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9em;
+}
